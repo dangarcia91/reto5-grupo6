@@ -12,4 +12,31 @@
     justify-items: center;
     justify-content: center;
   }
+
+  &--main {
+    padding-right: 20px;
+}
+
+&--footer {
+    text-align: center;
+    padding-top: 20px;
+}
+&--responsive {
+    flex-direction: column;
+}
+
+&--iconos {
+    flex-direction: column;
+}
+
+
+}
+
+@media (min-width:768px) {
+    .f-elements--responsive {
+        flex-direction: column;
+    }
+    .f-elements--iconos {
+    flex-direction: row;
+}
 }

@@ -3,6 +3,7 @@ import './App.css';
 import { primaryRoute } from './routes/primaryRoute';
 
 function App() {
+
   return (
     <RouterProvider router={primaryRoute} />
   );

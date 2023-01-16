@@ -1,4 +1,5 @@
 @import './modules/mixins/mixins';
+@import './modules/components/utils';
 @import './modules/layouts/container';
 @import './modules/layouts/elements';
 @import './modules/components/header';
@@ -6,3 +7,15 @@
 @import './modules/components/modal';
 @import './modules/components/list';
 @import './modules/components/icons';
+
+.body{
+    background-color: var(--secondary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+    color: black;
+}
+
+.main {
+    overflow: hidden;
+}
